@@ -40,6 +40,7 @@ export function fetch(
           let errorJson = jsonParse(error.error);
 
           const objectError = {
+            error: error.error,
             json: () => errorJson,
             path: errorJson?.path,
             message: errorJson?.message,
@@ -47,7 +48,6 @@ export function fetch(
             status: error?.status,
             url: error?.url,
           };
-          // objectError.json = () => objectError;
 
           reject(objectError);
         }
