@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { fetch as SSLPinningFetch } from 'react-native-ssl-pinning';
+import { fetch as SSLPinningFetch } from '@navabi/react-native-ssl-pinning';
 
 export default function App() {
   const [result, setResult] = React.useState({});

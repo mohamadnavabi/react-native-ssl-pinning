@@ -5,17 +5,17 @@ ssl pinning for React Native
 ## Installation
 
 ```sh
-npm install react-native-ssl-pinning
+npm install @navabi/react-native-ssl-pinning
 ```
 
 ```sh
-yarn add react-native-ssl-pinning
+yarn add @navabi/react-native-ssl-pinning
 ```
 
 ## Usage
 
 ```js
-import { fetch } from 'react-native-ssl-pinning';
+import { fetch } from '@navabi/react-native-ssl-pinning';
 
 // ...
 const response = await fetch(`URL`, {

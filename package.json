@@ -1,6 +1,6 @@
 {
   "name": "@navabi/react-native-ssl-pinning",
-  "version": "0.1.3",
+  "version": "0.1.10",
   "description": "ssl pinning for react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

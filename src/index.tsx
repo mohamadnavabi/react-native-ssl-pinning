@@ -3,11 +3,11 @@ import type {
   ErrorResponse,
   Options,
   SuccessResponse,
-} from 'react-native-ssl-pinning';
+} from '@navabi/react-native-ssl-pinning';
 import { jsonParse } from './helpers';
 
 const LINKING_ERROR =
-  `The package 'react-native-ssl-pinning' doesn't seem to be linked. Make sure: \n\n` +
+  `The package '@navabi/react-native-ssl-pinning' doesn't seem to be linked. Make sure: \n\n` +
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo managed workflow\n';

@@ -1,4 +1,4 @@
-declare module 'react-native-ssl-pinning' {
+declare module '@navabi/react-native-ssl-pinning' {
   interface Response {
     status: number;
     url: string;
